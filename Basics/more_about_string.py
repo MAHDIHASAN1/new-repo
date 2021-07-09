@@ -1,0 +1,7 @@
+print("Mahdi Hasan")
+print("Mahdi" + " " + "Hasan")
+print("Mahdi" + "01789726197")
+print("Mahdi" + str(+8801789726197))
+print("Mahdi" + " " + str(+8801789726197))
+print('He says:"I am mahdi hasan"')
+print("He says:'I am mahdi hasan'")
