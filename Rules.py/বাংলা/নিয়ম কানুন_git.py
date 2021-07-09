@@ -28,7 +28,7 @@
 #* কোন Branch কে Merge  করার জন্য                          ("git merge"Branchএর নাম-m"merging on "Branchএর নাম" with "Branchএর নাম"") 
 #* লোকাল থেকে রিমোটে নেওয়ার জন্য                           ("git push origin"Branchএর নাম") 
 #*  
-#*  
+#*            
 #*  
 #*  
 #*  
