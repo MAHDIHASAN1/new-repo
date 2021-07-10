@@ -27,19 +27,11 @@
 #* এক Branchথেকে অন্য Branch যাওয়ার জন্য                    ("git checkout"ফাইলের নাম") 
 #* কোন Branch কে Merge  করার জন্য                          ("git merge"Branchএর নাম-m"merging on "Branchএর নাম" with "Branchএর নাম"") 
 #* লোকাল থেকে রিমোটে নেওয়ার জন্য                           ("git push origin"Branchএর নাম") 
-#*  
-#* 
-# # echo "# VIERAITIS" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git branch -M main
-# git remote add origin https://github.com/MAHDIHASAN1/VIERAITIS.git
-# git push -u origin main           
-#*  
-#*  
-#*  
-#*  
+#* শুধু এই সফটওয়্যার এর জন্য User Name ব্যবহার করা করার জন্য  ("git config user.name"User Name" ")             
+#* শুধু এই সফটওয়্যার এর জন্য GMAIL ব্যবহার করা করার জন্য      ("git config user.email"GMAIL" ")               
+#* সমস্ত সফটওয়্যার এর জন্য User Name  ব্যবহার করার জন্য       ("git config --global user.name"User Name" ")   
+#* সমস্ত সফটওয়্যার এর জন্য GMAIL ব্যবহার করার জন্য            ("git config --global user.email"GMAIL" ")          
+#* git-এ বর্তমানে কোন User Name টি দেওয়া আছে               ("git config --list")                                
 #*  
 #*  
 #*  
@@ -66,6 +58,21 @@
 #*  
 #*  
 #*  
+#*
+
+
+
+
+
+
+
+# # echo "# VIERAITIS" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/MAHDIHASAN1/VIERAITIS.git
+# git push -u origin main               
 #*
 
 
