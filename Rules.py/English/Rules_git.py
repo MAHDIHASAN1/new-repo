@@ -27,11 +27,11 @@
 #* To go from one branch to another                             ("git checkout"files name") 
 #* To Merge a Branch                                            ("git merge"Branch name -m"merging on "Branch name" with "Branch name"") 
 #* To take from local to remote                                 ("git push origin"Branch name") 
-#*  
-#*  
-#*  
-#*  
-#*  
+#* Just to use the User Name for this software                  ("git config user.name"User Name" ")         
+#* Just to use the GMAIL for this software                      ("git config user.email"GMAIL" ")                
+#* To use Gmail for all software                                ("git config --global user.name"User Name" ")      
+#* To use User Name for all software                            ("git config --global user.email"GMAIL" ")       
+#* git-এ বর্তমানে কোন User Name টি দেওয়া আছে                    ("git config --list")                                                           
 #*  
 #*  
 #*  

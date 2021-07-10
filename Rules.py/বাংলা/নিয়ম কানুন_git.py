@@ -28,7 +28,14 @@
 #* কোন Branch কে Merge  করার জন্য                          ("git merge"Branchএর নাম-m"merging on "Branchএর নাম" with "Branchএর নাম"") 
 #* লোকাল থেকে রিমোটে নেওয়ার জন্য                           ("git push origin"Branchএর নাম") 
 #*  
-#*            
+#* 
+# # echo "# VIERAITIS" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/MAHDIHASAN1/VIERAITIS.git
+# git push -u origin main           
 #*  
 #*  
 #*  
@@ -51,8 +58,7 @@
 #*  
 #*  
 #*  
-#*  
-#*  
+#*   
 #*  
 #*  
 #*  
