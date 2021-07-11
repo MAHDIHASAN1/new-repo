@@ -1,5 +1,5 @@
 student = {
-    "Name"          :"Mahdi Hasan",
+    "Name"          :"Mahdi Hasan" "\n" "masnun",
     "Age"           :"16",
     "Phone"         :"01789726197",
     "Email"         :"mahdihasan591315@gmail.com",
@@ -10,3 +10,4 @@ student = {
 
 }
 print(type(student))
+print(student["Name"])
