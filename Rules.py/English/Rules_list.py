@@ -27,7 +27,7 @@
 #* To add items from one item to another within the list         {print(sum(List Name[Item index number:Item index number]))} 
 #* Which item is the smallest in the list                        {print(min(list name))}
 #* Which item is the largest inside the list                     {print(max(list name))}
-#* 
+#* To convert list to set                                        {print(set(list name))}                
 #* 
 #* 
 #* 

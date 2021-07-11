@@ -1,12 +1,16 @@
-tupl = (1, 2, 3, 4, 2, 5, 6, 7)
+tupl = (1, 2, 3, 4, 2, 5, 10, 6, 7)
+tup = (100, 200, 300, 400, 500, 600,)
+
 print(tupl)
 print(type(tupl))
 print(dir(tupl))
 print(tupl.count(2))
-print(tupl.index(7))
-print(tupl[6])
-
-
-
-
-
+print(tupl.index(10))
+print(tupl[3:])
+print(tupl[:])
+print(tupl[3:6])
+print(tupl[3:7:2])
+print(tupl[3])
+print(tupl + tup)
+mah =(tupl + tup)
+print(mah)
