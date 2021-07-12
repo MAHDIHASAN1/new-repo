@@ -6,12 +6,23 @@ student = {
     "Cuntry"        :"BD",
     "Father's name" :"MD Jamal Uddin",
     "Mother's name" :"Razia",
-    "Address"       :"Pirojpur"
+    "Address"       :"Pirojpur",
+    "Date of Birth" :"01-01-2005",
+    "Facebook_ID"   :"MAHDI HASAN" 
 
 }
 
+profile ={
+    "Name"         : "MASNUN HASAN",
+    "Twitter_ID"   : "@MAHDIHASAN95",
+    "YouTube_ID"   : "VIERAITIS VIDEOS",
+    "Instgram_ID"  : "MAHDIHASAN833"
+}
+print(type(student))
 print(student["Name"])
 print(student.get("Email"))
+student_cp = student.copy()
+print(student_cp)
 
 
 
@@ -45,13 +56,24 @@ student_ID = {
                         Email         = 'mahmudhasan5406@gmail.com'
                         Phone         = '01988466511'
                         Cuntry        = 'BD' """,                                      
-}                      
-print("         ")     
-print("         ")     
+}
+print("         ")
+print("         ")
 print("Student ID of School")
-print("         ")     
+print("         ")
 print("                      :",student_ID.get("MAHMUD HASAN"))
+#print(student_ID.items())
 
-
-
+print(student.keys())
+print(student.values())
+student["Class"] = "Eight"
+del student["Date of Birth"]
+student.pop("Facebook_ID")
+print("Student_of_ID:",student)
+student.update(profile)
+print(student)
+new_student_dict = {**student,**profile}
+print(new_student_dict)
+print(student | profile)
+student |= profile
 
