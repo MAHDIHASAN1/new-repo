@@ -27,4 +27,14 @@ print("NAME not:","MA"not in "MAHDI HASAN")
 
 
 
+# Sequencial Statements
+# Conditional Statements
+# Repeatable Statements
+
+
+
+
+
+
+
 
