@@ -1,4 +1,5 @@
 #Iterables: List, Tuple, set, Dictionary, string
+'''
 nums =[12, 34, 56, 78, 90, 23, 45, 67, 89]
 for item in nums:
     print("item:", item **2)
@@ -47,15 +48,52 @@ for g in "masnunhasan01789@gmail.com":
 student = ["mahdi","Hasan","masnun","Mahmud"]
 for h in student:
     print("student_h:", h.upper())
+'''    
+
+for number in range(10):
+    print("number:", number)
+
+for number_a in range(10, 20):
+    print("number_a:", number_a)
+
+for number_c in range(10, 30, 2):
+    print("number_c:", number_c)
+
+for number_b in range(10, 20):
+    if number_b == 15:
+        break
+    print("number_b:", number_b)
+
+
+
+
+student_results = [ 34, 12, 56, 22, 64, 78, 45]
+for mark in student_results:
+    if mark <33:
+        continue
+    print("passed:", mark)
+    
     
 
+student_results = [ 34, 12, 56, 22, 64, 78, 45]
+for mark in student_results:
+    if mark <33:
+        continue
+    print("passed:", mark)
+    for number in range(10):
+        print(number)
 
-    
-    
 
 
-
-
+student_results = [ 34, 12, 56, 22, 64, 78, 45]
+for mark in student_results:
+    if mark <33:
+        continue
+    print("passed:", mark)
+    for number in range(10):
+        print(number)
+        for i in range(5):
+            print(i)
 
 
 
