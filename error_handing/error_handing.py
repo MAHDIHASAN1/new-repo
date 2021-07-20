@@ -39,10 +39,10 @@ finally:
 
 
 
-try:
-    print(a)
-except NameError:
-    print("variable is not defined")
+#try:
+#    print(a)
+#except NameError:
+#    print("variable is not defined")
 
 
 try:
@@ -54,7 +54,7 @@ except ValueError:
 
 
 try:
-    print(a)
+    #print(a)
     int("mahdi hasan")
 except NameError:
     print("variable is not defined")
@@ -71,4 +71,4 @@ except ValueError:
     print("can't convert a string to an integer")
 else:
     print("There is no error")
-    
+
