@@ -11,13 +11,29 @@ try:
 except:
     print("File already exists")
 
-write_name = open("data.txt","w")
 
+# Write to file in python
+
+write_name = open("data.txt","w")
 write_name.write("Hi,mahdi hasan")
 write_name.close()
 
 
+# Read file
 
+read_name = open("data.txt","r")
+
+print(read_name.read())
+read_name.close()
+
+
+#update data in file
+append_name = open("data.txt","a")
+append_name.write("\nhello Bangladash")
+
+
+with open("data.txt","r+") as f:
+    print(f.read())
 
 
 
