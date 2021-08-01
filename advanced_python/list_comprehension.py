@@ -14,7 +14,7 @@ print("Final list:",name_chars)
 
 
 num_list = []
-for number in range(20):
+for number in range(5000):
     num_list.append(number)
 
 print(num_list)
