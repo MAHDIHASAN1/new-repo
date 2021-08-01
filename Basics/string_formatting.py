@@ -1,4 +1,4 @@
-#stringFormatting
+#string_Formatting
 #####
 full_info ="\nname:{0} \nvillage:{1} \nAge:{2}".format("'MAHDI HASAN'","'PIROJPUR'","'16'")
 print("Full Info:", full_info)
