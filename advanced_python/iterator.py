@@ -1,8 +1,8 @@
 # Iterators 
-# Iterabel
-# Iterabel string, list, tuple, set, dictionary
+# Iterable
+# Iterable string, list, tuple, set, dictionary
 
-nums = [12, 34, 56, 78]   # iterabel
+nums = [12, 34, 56, 78]   # iterable
 
 my_iterator = iter(nums)  # iterator
 
